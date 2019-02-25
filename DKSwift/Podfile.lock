@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Kingfisher (5.1.1)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - RxAtomic (4.4.1)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - PromiseKit
+  - RxSwift
+  - SnapKit
+  - SQLite.swift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Kingfisher
+    - PromiseKit
+    - RxAtomic
+    - RxSwift
+    - SnapKit
+    - SQLite.swift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 19569a2a2c6e02d0771a5920d89da1cd71e090dc
+
+COCOAPODS: 1.5.0
