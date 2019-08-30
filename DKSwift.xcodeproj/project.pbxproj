@@ -8,21 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		07C88C7950289EA64B134AAD /* Pods_DKSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FE69F02613ECAAC931FC33 /* Pods_DKSwift.framework */; };
-		E68A65F42223B557004FEF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68A65F32223B557004FEF3D /* AppDelegate.swift */; };
+		1617884B2317F112003B24E2 /* DKTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617884A2317F112003B24E2 /* DKTestVC.swift */; };
+		1617884D2317F137003B24E2 /* DKTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1617884C2317F137003B24E2 /* DKTestVC.xib */; };
+		161788522318071E003B24E2 /* DKAppDelegateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161788512318071E003B24E2 /* DKAppDelegateExt.swift */; };
+		16EBE2202318C44E00DB4756 /* DKApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBE21F2318C44E00DB4756 /* DKApi.swift */; };
+		16EBE2222318C73500DB4756 /* DKConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBE2212318C73500DB4756 /* DKConst.swift */; };
+		16EF25F7231774E60019B6AD /* DKTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF25F6231774E60019B6AD /* DKTabbar.swift */; };
+		16EF25FC23177D2C0019B6AD /* DKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF25FB23177D2C0019B6AD /* DKBaseViewController.swift */; };
+		16EF2601231799F50019B6AD /* DKLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF2600231799F50019B6AD /* DKLib.swift */; };
+		16EF260A2317A94A0019B6AD /* DKTestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF26092317A94A0019B6AD /* DKTestProtocol.swift */; };
+		E68A65F42223B557004FEF3D /* DKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68A65F32223B557004FEF3D /* DKAppDelegate.swift */; };
 		E68A65F62223B557004FEF3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68A65F52223B557004FEF3D /* ViewController.swift */; };
-		E68A65F92223B557004FEF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68A65F72223B557004FEF3D /* Main.storyboard */; };
 		E68A65FB2223B558004FEF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68A65FA2223B558004FEF3D /* Assets.xcassets */; };
 		E68A65FE2223B558004FEF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68A65FC2223B558004FEF3D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1617884A2317F112003B24E2 /* DKTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DKTestVC.swift; path = DKSwift/Test/DKTestVC.swift; sourceTree = SOURCE_ROOT; };
+		1617884C2317F137003B24E2 /* DKTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DKTestVC.xib; sourceTree = "<group>"; };
+		161788512318071E003B24E2 /* DKAppDelegateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAppDelegateExt.swift; sourceTree = "<group>"; };
 		16937CD70295179B4149F91A /* Pods-DKSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKSwift/Pods-DKSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		16EBE21F2318C44E00DB4756 /* DKApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKApi.swift; sourceTree = "<group>"; };
+		16EBE2212318C73500DB4756 /* DKConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKConst.swift; sourceTree = "<group>"; };
+		16EF25F6231774E60019B6AD /* DKTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTabbar.swift; sourceTree = "<group>"; };
+		16EF25FB23177D2C0019B6AD /* DKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBaseViewController.swift; sourceTree = "<group>"; };
+		16EF2600231799F50019B6AD /* DKLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKLib.swift; sourceTree = "<group>"; };
+		16EF26092317A94A0019B6AD /* DKTestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTestProtocol.swift; sourceTree = "<group>"; };
 		25F6C5053FE2D7FEB5D13CB1 /* Pods-DKSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKSwift/Pods-DKSwift.release.xcconfig"; sourceTree = "<group>"; };
 		75FE69F02613ECAAC931FC33 /* Pods_DKSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68A65F02223B557004FEF3D /* DKSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E68A65F32223B557004FEF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E68A65F32223B557004FEF3D /* DKAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAppDelegate.swift; sourceTree = "<group>"; };
 		E68A65F52223B557004FEF3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E68A65F82223B557004FEF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68A65FA2223B558004FEF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68A65FD2223B558004FEF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E68A65FF2223B559004FEF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +56,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16178853231807BB003B24E2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				161788512318071E003B24E2 /* DKAppDelegateExt.swift */,
+				E68A65F32223B557004FEF3D /* DKAppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16EF25F4231774AB0019B6AD /* DKTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				16EF25F6231774E60019B6AD /* DKTabbar.swift */,
+			);
+			path = DKTabbar;
+			sourceTree = "<group>";
+		};
+		16EF25F823177CF60019B6AD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				16EBE21F2318C44E00DB4756 /* DKApi.swift */,
+				16EF25FB23177D2C0019B6AD /* DKBaseViewController.swift */,
+				16EF2600231799F50019B6AD /* DKLib.swift */,
+				16EBE2212318C73500DB4756 /* DKConst.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		16EF25FD231785890019B6AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E68A65F52223B557004FEF3D /* ViewController.swift */,
+				E68A65FA2223B558004FEF3D /* Assets.xcassets */,
+				E68A65FC2223B558004FEF3D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16EF260223179BF20019B6AD /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1617884A2317F112003B24E2 /* DKTestVC.swift */,
+				1617884C2317F137003B24E2 /* DKTestVC.xib */,
+				16EF26092317A94A0019B6AD /* DKTestProtocol.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		4687201C78569C6A6FB58806 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +142,11 @@
 		E68A65F22223B557004FEF3D /* DKSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E68A65F32223B557004FEF3D /* AppDelegate.swift */,
-				E68A65F52223B557004FEF3D /* ViewController.swift */,
-				E68A65F72223B557004FEF3D /* Main.storyboard */,
-				E68A65FA2223B558004FEF3D /* Assets.xcassets */,
-				E68A65FC2223B558004FEF3D /* LaunchScreen.storyboard */,
+				16178853231807BB003B24E2 /* AppDelegate */,
+				16EF260223179BF20019B6AD /* Test */,
+				16EF25F823177CF60019B6AD /* Base */,
+				16EF25F4231774AB0019B6AD /* DKTabbar */,
+				16EF25FD231785890019B6AD /* Supporting Files */,
 				E68A65FF2223B559004FEF3D /* Info.plist */,
 			);
 			path = DKSwift;
@@ -116,6 +180,7 @@
 		E68A65E82223B557004FEF3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DK;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "邓凯";
@@ -148,9 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1617884D2317F137003B24E2 /* DKTestVC.xib in Resources */,
 				E68A65FE2223B558004FEF3D /* LaunchScreen.storyboard in Resources */,
 				E68A65FB2223B558004FEF3D /* Assets.xcassets in Resources */,
-				E68A65F92223B557004FEF3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,30 +228,42 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DKSwift/Pods-DKSwift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DKSwift/Pods-DKSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKSwift/Pods-DKSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKSwift/Pods-DKSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A1DB60E031F18EB7D68DF8E /* [CP] Check Pods Manifest.lock */ = {
@@ -214,22 +291,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16EBE2222318C73500DB4756 /* DKConst.swift in Sources */,
+				16EF25F7231774E60019B6AD /* DKTabbar.swift in Sources */,
 				E68A65F62223B557004FEF3D /* ViewController.swift in Sources */,
-				E68A65F42223B557004FEF3D /* AppDelegate.swift in Sources */,
+				16EF25FC23177D2C0019B6AD /* DKBaseViewController.swift in Sources */,
+				16EBE2202318C44E00DB4756 /* DKApi.swift in Sources */,
+				E68A65F42223B557004FEF3D /* DKAppDelegate.swift in Sources */,
+				16EF2601231799F50019B6AD /* DKLib.swift in Sources */,
+				161788522318071E003B24E2 /* DKAppDelegateExt.swift in Sources */,
+				16EF260A2317A94A0019B6AD /* DKTestProtocol.swift in Sources */,
+				1617884B2317F112003B24E2 /* DKTestVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E68A65F72223B557004FEF3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E68A65F82223B557004FEF3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E68A65FC2223B558004FEF3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -363,11 +440,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLFQNFJ548;
 				INFOPLIST_FILE = DKSwift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.crane.DKSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -378,11 +460,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLFQNFJ548;
 				INFOPLIST_FILE = DKSwift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.crane.DKSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

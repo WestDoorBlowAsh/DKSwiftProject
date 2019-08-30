@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DKTestVC" customModule="DKSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="confirmBtn" destination="YLb-Ia-BkI" id="ZmX-rr-rqg"/>
+                <outlet property="nameHintLb" destination="glQ-kz-Ttk" id="yLl-cm-nCY"/>
+                <outlet property="nameTF" destination="dmg-1r-gCV" id="PSO-Kc-hbc"/>
+                <outlet property="pwdHintLb" destination="UZK-M3-FxT" id="HzH-zs-kr3"/>
+                <outlet property="pwdTF" destination="wxf-HX-HED" id="bm8-Aj-NiH"/>
+                <outlet property="view" destination="Z3D-2M-5Uj" id="of7-ka-7ni"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Z3D-2M-5Uj">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dmg-1r-gCV">
+                    <rect key="frame" x="80" y="144" width="254" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="invalid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-kz-Ttk">
+                    <rect key="frame" x="80" y="210" width="48.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="invalid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZK-M3-FxT">
+                    <rect key="frame" x="80" y="333" width="48.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLb-Ia-BkI">
+                    <rect key="frame" x="80" y="407" width="254" height="30"/>
+                    <state key="normal" title="confirm">
+                        <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wxf-HX-HED">
+                    <rect key="frame" x="80" y="267" width="254" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="YLb-Ia-BkI" firstAttribute="trailing" secondItem="wxf-HX-HED" secondAttribute="trailing" id="0Cp-Po-Xxj"/>
+                <constraint firstItem="dmg-1r-gCV" firstAttribute="centerX" secondItem="Z3D-2M-5Uj" secondAttribute="centerX" id="8of-9a-ayU"/>
+                <constraint firstItem="YLb-Ia-BkI" firstAttribute="leading" secondItem="wxf-HX-HED" secondAttribute="leading" id="Bbp-xE-xQq"/>
+                <constraint firstItem="UZK-M3-FxT" firstAttribute="top" secondItem="wxf-HX-HED" secondAttribute="bottom" constant="36" id="BhG-aa-wBk"/>
+                <constraint firstItem="YLb-Ia-BkI" firstAttribute="top" secondItem="UZK-M3-FxT" secondAttribute="bottom" constant="53" id="Rxb-Us-LiG"/>
+                <constraint firstItem="wxf-HX-HED" firstAttribute="top" secondItem="glQ-kz-Ttk" secondAttribute="bottom" constant="36" id="TN2-zq-g7S"/>
+                <constraint firstItem="dmg-1r-gCV" firstAttribute="leading" secondItem="pEx-bm-lfO" secondAttribute="leading" constant="80" id="WWf-Va-O21"/>
+                <constraint firstItem="glQ-kz-Ttk" firstAttribute="top" secondItem="dmg-1r-gCV" secondAttribute="bottom" constant="36" id="ZZ3-2D-jSl"/>
+                <constraint firstItem="glQ-kz-Ttk" firstAttribute="leading" secondItem="dmg-1r-gCV" secondAttribute="leading" id="gga-fj-PkZ"/>
+                <constraint firstItem="wxf-HX-HED" firstAttribute="leading" secondItem="glQ-kz-Ttk" secondAttribute="leading" id="k6O-4A-rmj"/>
+                <constraint firstItem="wxf-HX-HED" firstAttribute="trailing" secondItem="dmg-1r-gCV" secondAttribute="trailing" id="pEf-sa-NZI"/>
+                <constraint firstItem="UZK-M3-FxT" firstAttribute="leading" secondItem="wxf-HX-HED" secondAttribute="leading" id="wOR-mR-nwB"/>
+                <constraint firstItem="dmg-1r-gCV" firstAttribute="top" secondItem="pEx-bm-lfO" secondAttribute="top" constant="100" id="wzX-yP-57y"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="pEx-bm-lfO"/>
+            <point key="canvasLocation" x="-428" y="-433"/>
+        </view>
+    </objects>
+</document>
