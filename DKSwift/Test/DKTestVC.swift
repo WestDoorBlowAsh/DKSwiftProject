@@ -53,21 +53,21 @@ class DKTestVC: DKBaseViewController {
                 
                 print("\(DKConst.baseURL)")
                 
-                ApiProvider.rx.request(.launchAds).subscribe({ (event) in
-                    switch event {
-                    case let .success(response):
-                        
-                        let data = response.data
-                        let statusCode = response.statusCode
-                        
-                        let dataString = String.init(data: data, encoding: String.Encoding.utf8)
-                        
-                        print("get response: \(data) \(statusCode) \(dataString)")
- 
-                    case let .error(error):
-                        print("\(error)")
-                    }
-                }).disposed(by: self.disposeBag)
+//                ApiProvider.rx.request(.launchAds).subscribe({ (event) in
+//                    switch event {
+//                    case let .success(response):
+//                        
+//                        let data = response.data
+//                        let statusCode = response.statusCode
+//                        
+//                        let dataString = String.init(data: data, encoding: String.Encoding.utf8)
+//                        
+//                        print("get response: \(data) \(statusCode) \(dataString)")
+// 
+//                    case let .error(error):
+//                        print("\(error)")
+//                    }
+//                }).disposed(by: self.disposeBag)
                 
                 
                 

@@ -74,14 +74,4 @@ private extension String {
     }
 }
 
-let ApiProvider = MoyaProvider<DKApi>()
-
-let endPointClosure = { (target: DKApi) -> Endpoint in
-    let point = Endpoint(url: target.baseURL.absoluteString, sampleResponseClosure: { .networkResponse(200, target.sampleData) }, method: target.method, task: target.task, httpHeaderFields: target.headers)
-    return point
-}
-
-let ApiEndPointProvider = MoyaProvider<DKApi>(endpointClosure: endPointClosure)
-
-let SampleProvider = MoyaProvider<DKApi>(endpointClosure: MoyaProvider.defaultEndpointMapping, requestClosure: MoyaProvider<DKApi>.defaultRequestMapping, stubClosure: MoyaProvider.immediatelyStub)
 
