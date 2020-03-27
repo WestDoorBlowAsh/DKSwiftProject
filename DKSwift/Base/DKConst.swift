@@ -11,3 +11,6 @@ import Foundation
 struct DKConst {
     static let baseURL = "http://test.sqka.yunyouduobao.com"
 }
+
+let screenWidth = UIScreen.main.bounds.width
+let screenHeight = UIScreen.main.bounds.height

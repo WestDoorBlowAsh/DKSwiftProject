@@ -19,7 +19,7 @@ extension DKAppDelegate {
     
     func setupTabBarController() {
         let tabVC = UITabBarController()
-        let vcs = [DKTestVC(), DKTestVC()]
+        let vcs = [DKUIViewController(), DKTestVC()]
         
         vcs.forEach { (vc) in
             let img = UIImage(named: "pkq")?.withRenderingMode(.alwaysOriginal)
@@ -28,6 +28,7 @@ extension DKAppDelegate {
                 $0.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -4)
             }
             let navVC = UINavigationController(rootViewController: vc)
+            navVC.navigationBar.isTranslucent = false
             tabVC.addChild(navVC)
         }
         
