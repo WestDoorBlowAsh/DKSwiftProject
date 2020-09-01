@@ -17,3 +17,28 @@ class GoldBuZu: UIView {}
 //class BangDingView: UIView {}
 //class BangDingView: UIView {}
 
+protocol BaseP {
+    func pMeth()
+}
+
+class confirmP: BaseP {
+    func pMeth() {
+        
+    }
+}
+
+class BaseC<Type> where Type: BaseP {
+    func cMeth() -> Type {
+        let a = confirmP()
+        return a as! Type
+    }
+}
+
+//extension BaseC: BaseP {
+//
+//
+//}
+
+func test() {
+    let dic: [String: BaseC<confirmP>] = [:]
+}

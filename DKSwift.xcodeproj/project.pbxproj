@@ -10,12 +10,13 @@
 		1617884B2317F112003B24E2 /* DKTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617884A2317F112003B24E2 /* DKTestVC.swift */; };
 		1617884D2317F137003B24E2 /* DKTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1617884C2317F137003B24E2 /* DKTestVC.xib */; };
 		161788522318071E003B24E2 /* DKAppDelegateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161788512318071E003B24E2 /* DKAppDelegateExt.swift */; };
-		166E076B241F148B00324A67 /* DKUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166E076A241F148B00324A67 /* DKUIViewController.swift */; };
 		166E076F241F2FA800324A67 /* UIColor+DKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166E076E241F2FA800324A67 /* UIColor+DKExtension.swift */; };
 		166E077C241F5EAF00324A67 /* Pods_DKSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FE69F02613ECAAC931FC33 /* Pods_DKSwift.framework */; };
 		166E0788241F7D7400324A67 /* CAGoldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166E0787241F7D7400324A67 /* CAGoldCell.swift */; };
 		16EBE2202318C44E00DB4756 /* DKApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBE21F2318C44E00DB4756 /* DKApi.swift */; };
 		16EBE2222318C73500DB4756 /* DKConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBE2212318C73500DB4756 /* DKConst.swift */; };
+		16EDB03E248E55D500F3FCA5 /* DKUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDB03D248E55D500F3FCA5 /* DKUIViewController.swift */; };
+		16EDB042248E55FB00F3FCA5 /* DKOCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDB041248E55FB00F3FCA5 /* DKOCTool.m */; };
 		16EEF92F232F27C800568B91 /* DKNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EEF92E232F27C800568B91 /* DKNetwork.swift */; };
 		16EF25F7231774E60019B6AD /* DKTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF25F6231774E60019B6AD /* DKTabbar.swift */; };
 		16EF25FC23177D2C0019B6AD /* DKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF25FB23177D2C0019B6AD /* DKBaseViewController.swift */; };
@@ -32,12 +33,15 @@
 		1617884A2317F112003B24E2 /* DKTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DKTestVC.swift; path = DKSwift/Test/DKTestVC.swift; sourceTree = SOURCE_ROOT; };
 		1617884C2317F137003B24E2 /* DKTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DKTestVC.xib; sourceTree = "<group>"; };
 		161788512318071E003B24E2 /* DKAppDelegateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAppDelegateExt.swift; sourceTree = "<group>"; };
-		166E076A241F148B00324A67 /* DKUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKUIViewController.swift; sourceTree = "<group>"; };
 		166E076E241F2FA800324A67 /* UIColor+DKExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+DKExtension.swift"; sourceTree = "<group>"; };
 		166E0787241F7D7400324A67 /* CAGoldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAGoldCell.swift; sourceTree = "<group>"; };
 		16937CD70295179B4149F91A /* Pods-DKSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKSwift/Pods-DKSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		16EBE21F2318C44E00DB4756 /* DKApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKApi.swift; sourceTree = "<group>"; };
 		16EBE2212318C73500DB4756 /* DKConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKConst.swift; sourceTree = "<group>"; };
+		16EDB03D248E55D500F3FCA5 /* DKUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKUIViewController.swift; sourceTree = "<group>"; };
+		16EDB03F248E55FB00F3FCA5 /* DKSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		16EDB040248E55FB00F3FCA5 /* DKOCTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKOCTool.h; sourceTree = "<group>"; };
+		16EDB041248E55FB00F3FCA5 /* DKOCTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKOCTool.m; sourceTree = "<group>"; };
 		16EEF92E232F27C800568B91 /* DKNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKNetwork.swift; sourceTree = "<group>"; };
 		16EF25F6231774E60019B6AD /* DKTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKTabbar.swift; sourceTree = "<group>"; };
 		16EF25FB23177D2C0019B6AD /* DKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBaseViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,16 @@
 			path = ThirdLib;
 			sourceTree = "<group>";
 		};
+		16EDB03C248E54EC00F3FCA5 /* OC_Method */ = {
+			isa = PBXGroup;
+			children = (
+				16EDB040248E55FB00F3FCA5 /* DKOCTool.h */,
+				16EDB041248E55FB00F3FCA5 /* DKOCTool.m */,
+				16EDB03F248E55FB00F3FCA5 /* DKSwift-Bridging-Header.h */,
+			);
+			path = OC_Method;
+			sourceTree = "<group>";
+		};
 		16EF25F4231774AB0019B6AD /* DKTabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +141,8 @@
 				16EF26092317A94A0019B6AD /* DKTestProtocol.swift */,
 				1617884A2317F112003B24E2 /* DKTestVC.swift */,
 				1617884C2317F137003B24E2 /* DKTestVC.xib */,
-				166E076A241F148B00324A67 /* DKUIViewController.swift */,
 				166E0787241F7D7400324A67 /* CAGoldCell.swift */,
+				16EDB03D248E55D500F3FCA5 /* DKUIViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -179,6 +193,7 @@
 		E68A65F22223B557004FEF3D /* DKSwift */ = {
 			isa = PBXGroup;
 			children = (
+				16EDB03C248E54EC00F3FCA5 /* OC_Method */,
 				16F4BD57242B34ED009FAA35 /* Useless */,
 				166E077F241F7C0500324A67 /* ThirdLib */,
 				16178853231807BB003B24E2 /* AppDelegate */,
@@ -226,6 +241,7 @@
 				TargetAttributes = {
 					E68A65EF2223B557004FEF3D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -307,12 +323,13 @@
 				16EF25F7231774E60019B6AD /* DKTabbar.swift in Sources */,
 				16EEF92F232F27C800568B91 /* DKNetwork.swift in Sources */,
 				166E0788241F7D7400324A67 /* CAGoldCell.swift in Sources */,
-				166E076B241F148B00324A67 /* DKUIViewController.swift in Sources */,
+				16EDB042248E55FB00F3FCA5 /* DKOCTool.m in Sources */,
 				166E076F241F2FA800324A67 /* UIColor+DKExtension.swift in Sources */,
 				E68A65F62223B557004FEF3D /* ViewController.swift in Sources */,
 				16EF25FC23177D2C0019B6AD /* DKBaseViewController.swift in Sources */,
 				16EBE2202318C44E00DB4756 /* DKApi.swift in Sources */,
 				E68A65F42223B557004FEF3D /* DKAppDelegate.swift in Sources */,
+				16EDB03E248E55D500F3FCA5 /* DKUIViewController.swift in Sources */,
 				16EF2601231799F50019B6AD /* DKLib.swift in Sources */,
 				161788522318071E003B24E2 /* DKAppDelegateExt.swift in Sources */,
 				16EF260A2317A94A0019B6AD /* DKTestProtocol.swift in Sources */,
@@ -456,6 +473,7 @@
 			baseConfigurationReference = 16937CD70295179B4149F91A /* Pods-DKSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLFQNFJ548;
 				INFOPLIST_FILE = DKSwift/Info.plist;
@@ -466,6 +484,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.crane.DKSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DKSwift/OC_Method/DKSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,6 +496,7 @@
 			baseConfigurationReference = 25F6C5053FE2D7FEB5D13CB1 /* Pods-DKSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLFQNFJ548;
 				INFOPLIST_FILE = DKSwift/Info.plist;
@@ -486,6 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.crane.DKSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DKSwift/OC_Method/DKSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

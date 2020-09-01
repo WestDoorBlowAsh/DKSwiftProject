@@ -30,7 +30,7 @@ class DKTestVC: DKBaseViewController {
             .map { $0.count >= 6 }
             .share(replay: 1, scope: .whileConnected)
         
-        let allValid = Observable.combineLatest(
+        let _ = Observable.combineLatest(
             nameValid,
             pwdValid
             ) { $0 && $1 }
